@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>mission_4-5</title>
+        <script type="text/javascript" src="mission_4-5.js"></script>
+        <link  rel="stylesheet" href="mission_4-5.css" type="text/css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 id="header">電卓</h1>
+            <div id="calc">
+         <input readonly id="result"type ="text" value="0">
+         <button onclick="c_click()">C</button>
+        </div>
+        <div>
+            <button onclick="num_click(this.innerHTML)">7</button>
+            <button onclick="num_click(this.innerHTML)">8</button>
+            <button onclick="num_click(this.innerHTML)">9</button> 
+            <button onclick="num_click(this.innerHTML)">÷</button>
+        </div>
+        <div>
+            <button onclick="num_click(this.innerHTML)">4</butto✕n>
+            <button onclick="num_click(this.innerHTML)">5</button>
+            <button onclick="num_click(this.innerHTML)">6</button>
+            <button onclick="num_click(this.innerHTML)">×</button>
+        </div>
+        <div>
+            <button onclick="num_click(this.innerHTML)">1</button>
+            <button onclick="num_click(this.innerHTML)">2</button>
+            <button onclick="num_click(this.innerHTML)">3</button>
+            <button onclick="ope_click(this.innerHTML)">-</button>
+          </div>
+          <div>
+            <button onclick="num_click(this.innerHTML)">0</button>
+            <button onclick="num_click(this.innerHTML)">.</button>
+            <button onclick="equal_click()">=</button>
+            <button onclick="ope_click(this.innerHTML)">+</button>
+          </div>
+          </div>
+        </div>
+    </body>
+</html>
